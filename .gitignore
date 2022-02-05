@@ -1,0 +1,8 @@
+__pycache__
+.ipynb_checkpoints
+structurenet_chair_dataset
+structurenet_chair_dataset.zip
+pretrained_encoder.pth
+pretrained_decoder.pth
+structurenet_vae_pretrained_models.zip
+exp_*
