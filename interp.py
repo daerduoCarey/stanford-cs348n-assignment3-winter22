@@ -76,8 +76,6 @@ with torch.no_grad():
 
     # STUDENT CODE START
     # feed through the encoder to get two codes z1 and z2
-    z1 = encoder.encode_structure(obj1)
-    z2 = encoder.encode_structure(obj2)
 
     # create a forloop looping 0, 1, 2, ..., num_interp - 1, num_interp
     # interpolate the feature so that the first feature is exactly z1 and the last is exactly z2
